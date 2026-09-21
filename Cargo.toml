@@ -1,0 +1,14 @@
+[package]
+name = "clinic-spend-ceiling"
+version = "0.1.0"
+edition = "2021"
+description = "Appointment notification example with an account-level model spend ceiling"
+license = "MIT"
+
+[lib]
+name = "clinic_spend_ceiling"
+path = "src/appointment_guard.rs"
+
+[[bin]]
+name = "appointment-notifier"
+path = "src/appointment_notifier.rs"
